@@ -17,6 +17,7 @@ node('master')
   stage('ContinuousTesting') 
   {
     git 'https://github.com/selenium-saikrishna/TestingOnLinux.git'
+    sh 'echo done'
     
   }
   stage('ContinuousDelivery') 
